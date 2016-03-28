@@ -2,4 +2,4 @@
 
 当前这个组件是从 YYKit中抽离出来，并自己相对应的进行改造一下。
 
-![Image text]https://raw.githubusercontent.com/fbi080703/PeipeiPictureBlowser/master/PeipeiPictureBlowser/image/home.png
+![Image text](https://raw.githubusercontent.com/fbi080703/PeipeiPictureBlowser/master/PeipeiPictureBlowser/image/home.png)
