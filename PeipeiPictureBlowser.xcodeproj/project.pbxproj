@@ -35,6 +35,10 @@
 		3711E12E1CA9490000C1936C /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3711E11D1CA9490000C1936C /* UIImageView+WebCache.m */; };
 		3711E12F1CA9490000C1936C /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3711E11F1CA9490000C1936C /* UIView+WebCacheOperation.m */; };
 		3711E1311CA9492B00C1936C /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3711E1301CA9492B00C1936C /* WebP.framework */; };
+		3711E1391CA95BAA00C1936C /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3711E1351CA95BAA00C1936C /* 1.png */; };
+		3711E13A1CA95BAA00C1936C /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3711E1361CA95BAA00C1936C /* 2.png */; };
+		3711E13B1CA95BAA00C1936C /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3711E1371CA95BAA00C1936C /* 3.png */; };
+		3711E13C1CA95BAA00C1936C /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 3711E1381CA95BAA00C1936C /* home.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,6 +97,10 @@
 		3711E11E1CA9490000C1936C /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		3711E11F1CA9490000C1936C /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		3711E1301CA9492B00C1936C /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
+		3711E1351CA95BAA00C1936C /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		3711E1361CA95BAA00C1936C /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		3711E1371CA95BAA00C1936C /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		3711E1381CA95BAA00C1936C /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +135,7 @@
 		3711E0D61CA9472300C1936C /* PeipeiPictureBlowser */ = {
 			isa = PBXGroup;
 			children = (
+				3711E1341CA955EE00C1936C /* image */,
 				3711E0FE1CA9490000C1936C /* SDWebImage */,
 				3711E0FB1CA9476E00C1936C /* UIView+Add.h */,
 				3711E0FC1CA9476E00C1936C /* UIView+Add.m */,
@@ -200,6 +209,17 @@
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
+		3711E1341CA955EE00C1936C /* image */ = {
+			isa = PBXGroup;
+			children = (
+				3711E1351CA95BAA00C1936C /* 1.png */,
+				3711E1361CA95BAA00C1936C /* 2.png */,
+				3711E1371CA95BAA00C1936C /* 3.png */,
+				3711E1381CA95BAA00C1936C /* home.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -258,6 +278,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3711E0E71CA9472300C1936C /* LaunchScreen.storyboard in Resources */,
+				3711E1391CA95BAA00C1936C /* 1.png in Resources */,
+				3711E13C1CA95BAA00C1936C /* home.png in Resources */,
+				3711E13A1CA95BAA00C1936C /* 2.png in Resources */,
+				3711E13B1CA95BAA00C1936C /* 3.png in Resources */,
 				3711E0E41CA9472300C1936C /* Assets.xcassets in Resources */,
 				3711E0E21CA9472300C1936C /* Main.storyboard in Resources */,
 			);
