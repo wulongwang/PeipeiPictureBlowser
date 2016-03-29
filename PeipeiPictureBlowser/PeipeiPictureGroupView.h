@@ -17,7 +17,7 @@
 
 @interface PeipeiPictureGroupView : UIView
 
-@property (nonatomic, readonly) NSArray *groupItems; ///< Array<YYPhotoGroupItem>
+@property (nonatomic, readonly) NSArray *groupItems; ///
 @property (nonatomic, readonly) NSInteger currentPage;
 @property (nonatomic, assign) BOOL blurEffectBackground; ///< Default is YES
 
